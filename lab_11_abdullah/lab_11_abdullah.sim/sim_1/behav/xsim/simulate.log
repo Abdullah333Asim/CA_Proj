@@ -1,0 +1,9 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Pass: PC incremented to 4.
+Pass: PC incremented to 8.
+Pass: I-Type Immediate Generation Produced -5 (fffffffb).
+Generated Immediate before shift:  2147483646
+Current PC is         16
+Fail: Branch PC calculation. Expected 16, got         12
+$finish called at time : 70 ns : File "C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/lab_11_abdullah.srcs/sim_1/imports/Lab11/tb_Task1.v" Line 110

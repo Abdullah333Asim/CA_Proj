@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr  2 20:42:55 2026
+# Process ID: 23472
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/Lab_9/Lab_9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21048 C:\Users\HP\Desktop\4th Sem\CA\Lab_9\Lab_9\Lab_9.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/Lab_9/Lab_9/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/Lab_9/Lab_9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/Lab_9/Lab_9/Lab_9.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ControlPath_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TopLevel [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1

@@ -1,0 +1,4 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Clean FSM Simulation Complete. Check waveforms.
+$finish called at time : 325 ns : File "C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/rf_alu_fsm_tb.v" Line 129

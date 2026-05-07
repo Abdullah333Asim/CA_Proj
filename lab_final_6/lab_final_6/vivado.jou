@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 12 20:52:13 2026
+# Process ID: 26392
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11920 C:\Users\HP\Desktop\4th Sem\CA\lab_final_6\lab_final_6\lab_final_6.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/lab_final_6.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/lab_final_6.srcs/sim_1/new/rf_alu_fsm_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/lab_final_6.srcs/sim_1/new/rf_alu_fsm_tb.v}}
+update_compile_order -fileset sim_1

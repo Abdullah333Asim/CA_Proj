@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 26 16:34:57 2026
+# Process ID: 16016
+# Current directory: C:/Users/ra10096/Documents/Lab_9/Lab_9.runs/synth_1
+# Command line: vivado.exe -log TopLevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevel.tcl
+# Log file: C:/Users/ra10096/Documents/Lab_9/Lab_9.runs/synth_1/TopLevel.vds
+# Journal file: C:/Users/ra10096/Documents/Lab_9/Lab_9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopLevel.tcl -notrace

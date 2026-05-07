@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/debouncer.v" \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/downCounter.v" \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/fsm.v" \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/leds.v" \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/switches.v" \
+"../../../../abdullah_final_lab5.srcs/sources_1/new/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

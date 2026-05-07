@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new/MemorySystem_tb.v,1773936233,verilog,,,,MemorySystem_tb,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/DataMemory.v,1773934581,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/addressDecoderTop.v,,DataMemory,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/addressDecoderTop.v,1773935441,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/led.v,,addressDecoderTop,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/led.v,1773934445,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/switches.v,,leds,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/switches.v,1773934447,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new/MemorySystem_tb.v,,switches,,,,,,,,

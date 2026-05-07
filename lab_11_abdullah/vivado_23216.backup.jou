@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 18 17:47:16 2026
+# Process ID: 23216
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23080 C:\Users\HP\Desktop\4th Sem\CA\lab_11_abdullah\lab_11_abdullah.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/lab_11_abdullah.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+close_project
+open_project {C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/lab_11_abdullah.xpr}
+update_compile_order -fileset sources_1
+launch_simulation

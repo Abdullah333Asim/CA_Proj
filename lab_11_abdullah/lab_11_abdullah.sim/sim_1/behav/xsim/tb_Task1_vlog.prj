@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_11_abdullah.srcs/sources_1/imports/Lab11/ProgramCounter.v" \
+"../../../../lab_11_abdullah.srcs/sources_1/imports/Lab11/branchAdder.v" \
+"../../../../lab_11_abdullah.srcs/sources_1/imports/Lab11/immGen.v" \
+"../../../../lab_11_abdullah.srcs/sources_1/imports/Lab11/mux2.v" \
+"../../../../lab_11_abdullah.srcs/sources_1/imports/Lab11/pcAdder.v" \
+"../../../../lab_11_abdullah.srcs/sim_1/imports/Lab11/tb_Task1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

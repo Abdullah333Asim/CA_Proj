@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/rf_alu_fsm_tb.v,1773336721,verilog,,,,RF_ALU_FSM_tb,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/tb_reg_file.v,1773334501,verilog,,,,RegisterFile_tb,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/top_rf_alu_tb.v,1773338127,verilog,,,,top_rf_alu_tb,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sources_1/new/RegisterFile.v,1773333693,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sources_1/new/alu.v,,RegisterFile,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sources_1/new/alu.v,1773335266,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/rf_alu_fsm_tb.v,,ALU,,,,,,,,
+C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sources_1/new/top_rf_alu.v,1773337435,verilog,,C:/Users/HP/Desktop/4th Sem/CA/lab7/lab7.srcs/sim_1/new/top_rf_alu_tb.v,,top_rf_alu,,,,,,,,

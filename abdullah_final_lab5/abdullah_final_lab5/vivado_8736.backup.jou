@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Mar  2 17:30:20 2026
+# Process ID: 8736
+# Current directory: C:/Users/HP/Desktop/abdullah_final_lab5/abdullah_final_lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25676 C:\Users\HP\Desktop\abdullah_final_lab5\abdullah_final_lab5\abdullah_final_lab5.xpr
+# Log file: C:/Users/HP/Desktop/abdullah_final_lab5/abdullah_final_lab5/vivado.log
+# Journal file: C:/Users/HP/Desktop/abdullah_final_lab5/abdullah_final_lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HP/Desktop/abdullah_final_lab5/abdullah_final_lab5/abdullah_final_lab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source fsm_testbench.tcl
+close_sim

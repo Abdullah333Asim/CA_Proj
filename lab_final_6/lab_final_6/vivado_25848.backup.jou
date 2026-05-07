@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar  5 20:01:11 2026
+# Process ID: 25848
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27512 C:\Users\HP\Desktop\4th Sem\CA\lab_final_6\lab_final_6\lab_final_6.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/lab_final_6/lab_final_6/lab_final_6.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source top_ALU.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+close_sim
+launch_simulation
+source ALU_tb.tcl
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+close_sim
+synth_design -rtl -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+refresh_design
+refresh_design
+refresh_design

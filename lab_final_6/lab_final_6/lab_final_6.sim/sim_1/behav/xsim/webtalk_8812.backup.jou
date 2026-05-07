@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar  4 13:38:51 2026
+# Process ID: 8812
+# Current directory: C:/Users/ma10020/Desktop/lab 6_final/lab 6_final.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/ma10020/Desktop/lab 6_final/lab 6_final.sim/sim_1/behav/xsim/xsim.dir/top_ALU_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ma10020/Desktop/lab 6_final/lab 6_final.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/ma10020/Desktop/lab 6_final/lab 6_final.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ma10020/Desktop/lab -notrace

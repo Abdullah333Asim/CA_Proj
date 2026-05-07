@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr 18 17:54:57 2026
+# Process ID: 19608
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8432 C:\Users\HP\Desktop\4th Sem\CA\lab_11_abdullah\lab_11_abdullah.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/lab_11_abdullah/lab_11_abdullah.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_Task1.tcl
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+refresh_design
+close_design
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -name rtl_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation landscape C:/Users/HP/Desktop/schematic.pdf
+write_schematic -format pdf -orientation portrait -force C:/Users/HP/Desktop/schematic.pdf
+write_schematic -format pdf -orientation portrait C:/Users/HP/Desktop/schematic.pdf
+current_design synth_1
+report_utilization -name utilization_1
+report_utilization -name utilization_2
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_utilization -name utilization_2
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+close_design
+close_design
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+write_schematic -format pdf -orientation portrait C:/Users/HP/Desktop/datapath.pdf
+report_utilization -name utilization_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+close_sim

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_8.srcs/sources_1/new/DataMemory.v" \
+"../../../../lab_8.srcs/sources_1/new/addressDecoderTop.v" \
+"../../../../lab_8.srcs/sources_1/new/led.v" \
+"../../../../lab_8.srcs/sources_1/new/switches.v" \
+"../../../../lab_8.srcs/sim_1/new/MemorySystem_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

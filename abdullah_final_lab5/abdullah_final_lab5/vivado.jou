@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 19 20:26:10 2026
+# Process ID: 7984
+# Current directory: C:/Users/HP/Desktop/4th Sem/CA/abdullah_final_lab5/abdullah_final_lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5792 C:\Users\HP\Desktop\4th Sem\CA\abdullah_final_lab5\abdullah_final_lab5\abdullah_final_lab5.xpr
+# Log file: C:/Users/HP/Desktop/4th Sem/CA/abdullah_final_lab5/abdullah_final_lab5/vivado.log
+# Journal file: C:/Users/HP/Desktop/4th Sem/CA/abdullah_final_lab5/abdullah_final_lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Desktop/4th Sem/CA/abdullah_final_lab5/abdullah_final_lab5/abdullah_final_lab5.xpr}
+update_compile_order -fileset sources_1
+create_project lab_8 {C:/Users/HP/Desktop/4th Sem/CA/lab_8} -part xc7a35tcpg236-1
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new
+file mkdir {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new}
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/switches.v} w ]
+add_files {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/switches.v}}
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/led.v} w ]
+add_files {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/led.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/DataMemory.v} w ]
+add_files {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/DataMemory.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/addressDecoderTop.v} w ]
+add_files {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/addressDecoderTop.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top addressDecoderTop [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new
+file mkdir {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new}
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new/MemorySystem_tb.v} w ]
+add_files -fileset sim_1 {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sim_1/new/MemorySystem_tb.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MemorySystem_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source MemorySystem_tb.tcl
+close_sim
+launch_simulation
+source MemorySystem_tb.tcl
+close_sim
+launch_simulation
+source MemorySystem_tb.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source MemorySystem_tb.tcl
+close_sim
+close_design
+launch_simulation
+source MemorySystem_tb.tcl
+current_project abdullah_final_lab5
+close_project
+close [ open {C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/seven_seg.v} w ]
+add_files {{C:/Users/HP/Desktop/4th Sem/CA/lab_8/lab_8.srcs/sources_1/new/seven_seg.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_sim
